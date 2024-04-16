@@ -1,12 +1,10 @@
 package part2Actors
 
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
-import part2Actors.C10ActorCapabilities.Counter
-import part2Actors.C12ChangingActorBehavior.system
 
 import scala.runtime.Nothing$
 
-object C14ChangingActorBehavior extends App {
+object C14ChangingActorBehaviorExercises extends App {
 
   /**
    * Exercises
