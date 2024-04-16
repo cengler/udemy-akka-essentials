@@ -3,7 +3,7 @@ package part1recap
 import scala.annotation.tailrec
 import scala.util.Try
 
-object GeneralRecap extends App {
+object C03GeneralRecap extends App {
 
   private val aCondition: Boolean = false
 

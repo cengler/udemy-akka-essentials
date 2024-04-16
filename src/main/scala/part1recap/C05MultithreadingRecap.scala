@@ -3,7 +3,7 @@ package part1recap
 import scala.concurrent.Future
 import scala.util.{Failure, Success}
 
-object MultithreadingRecap extends App {
+object C05MultithreadingRecap extends App {
 
   // creating threads on the JVM
 

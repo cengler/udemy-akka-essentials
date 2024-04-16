@@ -2,7 +2,7 @@ package part1recap
 
 import scala.concurrent.Future
 
-object ThreadModelLimitations extends App {
+object C06ThreadModelLimitations extends App {
 
   /**
    * #1: OOP encapsulation is only valid in the SINGLE THREADED MODEL.

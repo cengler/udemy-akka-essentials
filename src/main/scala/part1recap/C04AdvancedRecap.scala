@@ -2,7 +2,7 @@ package part1recap
 
 import scala.concurrent.Future
 
-object AdvancedRecap extends App {
+object C04AdvancedRecap extends App {
 
   // partial functions
   val partialFunction: PartialFunction[Int, Int] = {
