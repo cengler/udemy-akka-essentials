@@ -1,7 +1,7 @@
-package part2Actors
+package part2actors
 
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
-import part2Actors.C12ChangingActorBehavior.Mom.MomStart;
+import part2actors.C12ChangingActorBehavior.Mom.MomStart;
 
 object C12ChangingActorBehavior extends App{
 

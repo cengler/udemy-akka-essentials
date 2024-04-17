@@ -1,7 +1,7 @@
-package part2Actors
+package part2actors
 
 import akka.actor.{Actor, ActorRef, ActorSystem, Props}
-import part2Actors.C10ActorCapabilitiesExercises.Person.LiveTheLife
+import part2actors.C10ActorCapabilitiesExercises.Person.LiveTheLife
 
 object C10ActorCapabilitiesExercises extends App {
 
