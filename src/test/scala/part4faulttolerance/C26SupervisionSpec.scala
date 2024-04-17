@@ -13,7 +13,7 @@ class C26SupervisionSpec  extends TestKit(ActorSystem("SupervisionSpec"))
     TestKit.shutdownActorSystem(system)
   }
 
-  import SupervisionSpec._
+  import C26SupervisionSpec._
 
   "A supervisor" should {
     "resume its child in case of a minor fault" in {
