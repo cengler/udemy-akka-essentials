@@ -69,7 +69,7 @@ class C26SupervisionSpec  extends TestKit(ActorSystem("SupervisionSpec"))
 
   "A kinder supervisor" should {
     "not kill children in case it's restarted or escalates failures" in {
-      val supervisor = system.actorOf(Props[NoDeathOnRestartSupervisor], "supervisor")
+      val supervisor = system.actorOf(Props[NoDeathOnRestartSupervisor], "kinderSupervisor")
       supervisor ! Props[FussyWordCounter]
       val child = expectMsgType[ActorRef]
 
