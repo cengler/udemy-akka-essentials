@@ -12,6 +12,9 @@ val scalatestVersion = "3.2.18"
 
 libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-actor" % akkaVersion,
+  "com.typesafe.akka" %% "akka-actor-typed" % akkaVersion,
   "com.typesafe.akka" %% "akka-testkit" % akkaVersion,
-  "org.scalatest" %% "scalatest" % scalatestVersion
+  "org.scalatest" %% "scalatest" % scalatestVersion,
+  "org.slf4j" % "slf4j-api" % "1.7.32",  // SLF4J
+  "ch.qos.logback" % "logback-classic" % "1.2.6"  // SLF4J imp Logback
 )
